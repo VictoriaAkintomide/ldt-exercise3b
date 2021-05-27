@@ -1,0 +1,28 @@
+body {
+    background-color: #090b1a;
+  }
+  .row {
+    background-color: #1b1938;
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+  }
+  h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  mark {
+    color: #aa5cdb;
+    background: none;
+   }
+  p {
+    color: #ffffffbf;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  #image-div {
+    background-image: url("images/image-header-desktop.jpg");
+    background-color: #aa5cdb;
+  }
