@@ -1,16 +1,37 @@
 body {
-    background-color: #090b1a;
-  }
+    background: #090b1a;
+    height: 100%;
+    
+}
   .row {
-    background-color: #1b1938;
+    background: #1b1938;
     display: flex;
+    width: 1080px;
+    height: 446px; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+
   }
   .column {
     flex: 50%;
+    
   }
   h1 {
     color: white;
     font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  h3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 70px;
   }
   mark {
     color: #aa5cdb;
@@ -18,11 +39,38 @@ body {
    }
   p {
     color: #ffffffbf;
-    font-family: "Lexend Deca", sans-serif;
+    font-family: "Inter", sans-serif;
+    /* font-family: "Lexend Deca", sans-serif; */
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 10px;
   }
-  #image-div {
-    background-image: url("images/image-header-desktop.jpg");
-    background-color: #aa5cdb;
+  #text-box {
+    width: 400px;
+    padding: 70px;
+    box-sizing: border-box;
+    
+  }
+  #img-box {
+    background-image: url("images/image-header-desktop.jpg"), linear-gradient(rgba(170, 92, 219, 0.6), rgba(170, 92, 219, 0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    width: 540px;
+
+  }
+  .text-three {
+    display: flex;
+    flex-wrap: wrap;
+    width:400px;
+  }
+  .bloc{
+    flex: 1;
+   }
+   .text-two{
+    width: 300px;
+  }
+  .text-one {
+    width: 400px;
   }
